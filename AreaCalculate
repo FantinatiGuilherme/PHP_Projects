@@ -1,0 +1,7 @@
+<?php 
+        $raio = 2.0;
+        
+        $res = 3.14159 * ($raio * $raio);
+
+        echo "<br>Área do circulo = $res<br><br>";
+    ?>
