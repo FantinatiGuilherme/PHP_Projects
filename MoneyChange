@@ -1,0 +1,58 @@
+    <?php
+        $valori =188;
+        $valor = 188;
+        $n100 = 0;
+        $n50 = 0;
+        $n20 = 0;
+        $n10 = 0;
+        $n5 = 0;
+        $n2 = 0;
+        $n1 = 0;
+
+
+        while($valor >= 100){
+            $valor -= 100;
+            $n100++;
+        }
+
+        while ($valor >= 50){
+            $valor -=50;
+            $n50++;  
+        }
+
+        while ($valor >= 20){
+            $valor -= 20;
+            $n20++;
+        }
+
+        while ($valor >= 10){
+            $valor -= 10;
+            $n10++;
+        }
+
+        while ($valor >= 5){
+            $valor -= 5;
+            $n5++;
+
+        }
+
+        while($valor >= 2 ){
+            $valor -= 2;
+            $n2++;
+
+        }
+
+        while ($valor >= 1){
+            $valor -= 1;
+            $n1++;
+        }
+
+        echo "<br>Utilize as seguintes notas para o troco de R$$valori :  <br><br>
+              100 = $n100 <br>
+              50 = $n50 <br>
+              20 = $n20 <br>
+              10 = $n10 <br>
+              5 = $n5 <br>
+              2 = $n2 <br>
+              1 = $n1 <br><br>";
+    ?>
