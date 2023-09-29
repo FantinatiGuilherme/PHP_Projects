@@ -1,0 +1,14 @@
+<?php
+
+    $s1 = "<br>PHP5 - Guia do Programador";
+                $s2 = '$s1';
+                $s3 = "$s1";
+                $s4 = "\$s1 = $s1";
+                $s5 = '$s1 = $s1';
+        
+        echo $s1. "<br>";                
+        echo $s2. "<br>";
+        echo $s3. "<br>";
+        echo $s4. "<br>";
+        echo $s5. "<br><br>";
+?>
