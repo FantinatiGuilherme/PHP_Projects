@@ -1,0 +1,19 @@
+ <?php
+    $i = 1;
+
+        while ($i < 5){
+
+            $t = F3();
+            $i++;
+            echo "<br>". $t;
+        }
+echo "<br><br>";
+    function F3 ()
+    {
+
+            static $x = 1;
+            $x = $x +2;
+
+            return $x;
+    }
+    ?>
