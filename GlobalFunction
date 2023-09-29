@@ -1,0 +1,12 @@
+<?php
+        $x = 8;
+        $y = 2;
+
+        echo F();
+        function F(){
+            global $x;
+            $y = 15;
+            return "<br>". ($x + $y);
+        }
+        echo "<br><br>";
+    ?>
